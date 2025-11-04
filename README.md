@@ -3,7 +3,7 @@
 本目錄包含一個使用 TF‑IDF + LinearSVC 的簡單可重現垃圾郵件 (spam) 判別基線，並提供 CLI 與 Streamlit 互動介面以供訓練、推論與模型檢視。
 
 # Demo Site
-[https://2025spamemail.streamlit.app/](https://spam-ham-classifier-william9181.streamlit.app/)
+[https://spamemail.streamlit.app/](https://spam-ham-classifier-william9181.streamlit.app/)
 
 ## 資料來源
 - 使用公開的 SMS spam 資料集（Packt 提供的 CSV，無 header，兩欄 — label, text）。程式會在需要時自動從原始 URL 下載並儲存在記憶體中。
